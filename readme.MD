@@ -1,6 +1,15 @@
 # Laboratory 2
 
-## **THIS IS A DRAFAT VERSION OF PROPOSED LAB 2**
+This project is a collection of exercises for lab 2 assignment, focusing on different programming tasks. Each exercise is encapsulated in a separate class, and the project is organized to facilitate the implementation and testing of these classes. Below is a brief overview of the structure and purpose of each class.
+
+## Expected Workflow for Students
+
+1. **Understand the Problem Statement:** Carefully read the description of each exercise and understand the problem you need to solve.
+2. **Plan Your Solution:** Before writing any code, plan your approach to solving the problem. Consider the methods you need to implement and how they will interact.
+3. **Write the Code:** Implement the methods as described in the project structure. Follow the TODO comments and write the necessary code.
+4. **Test Your Code:** Use the provided test classes to test and validate your solution is implemented according to the requirements.
+5. **Debug and Refine:** If your tests fail, debug your code to find and fix the issues. Refine your solution to improve performance and readability.
+6. **Submit Your Work:** Once you are confident that your code works correctly, submit your work as per the submission guidelines.
 
 ## Exercise 1
 Generate a random number between 25 and 150 and create an array of that size. Fill the array with random integers between -100 and 100. Calculate the average value of all elements and count how many elements are above and below this average.
