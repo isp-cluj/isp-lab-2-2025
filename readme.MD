@@ -1,5 +1,7 @@
 # Laboratory 2
 
+## **THIS IS A DRAFAT VERSION OF PROPOSED LAB 2**
+
 ## Exercise 1
 Generate a random number between 25 and 150 and create an array of that size. Fill the array with random integers between -100 and 100. Calculate the average value of all elements and count how many elements are above and below this average.
 
