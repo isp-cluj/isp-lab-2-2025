@@ -60,7 +60,7 @@ public class BullsAndCowsGame {
      * @param guesses the list of guesses to try
      * @return the number of attempts needed to guess correctly
      */
-    public int playTestGame(List<String> guesses) {
+    public int playTestGame(String[] guesses) {
         // TODO: Implement this method
         // 1. Iterate through each guess
         // 2. Evaluate the guess

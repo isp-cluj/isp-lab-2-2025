@@ -3,7 +3,6 @@ package utcluj.aut.lab2.exercises;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 import static org.junit.jupiter.api.Assertions.*;
-import java.util.List;
 
 public class BullsAndCowsGameTest {
     private BullsAndCowsGame game;
@@ -83,12 +82,12 @@ public class BullsAndCowsGameTest {
     @Test
     public void testGameplay() {
         // Test full game with fixed secret "1234"
-        List<String> guesses = List.of("5678", "1590", "1234");
+        String[] guesses = {"5678", "1590", "1234"};
         int attempts = game.playTestGame(guesses);
         assertEquals(3, attempts, "Game should take 3 attempts");
 
         // Test another game sequence
-        guesses = List.of("9876", "5432", "1678", "1234");
+        guesses = new String[]{"9876", "5432", "1678", "1234"};
         attempts = game.playTestGame(guesses);
         assertEquals(4, attempts, "Game should take 4 attempts");
     }

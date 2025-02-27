@@ -2,7 +2,6 @@ package utcluj.aut.lab2.exercises;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-import java.util.Map;
 
 public class StringAnalyzerTest {
 
@@ -30,19 +29,15 @@ public class StringAnalyzerTest {
     @Test
     public void testCountVowels() {
         String[] strings = {"apple", "banana", "cherry"};
-        Map<String, Integer> result = new StringAnalyzer().countVowels(strings);
-        assertEquals(2, result.get("apple"));
-        assertEquals(3, result.get("banana"));
-        assertEquals(2, result.get("cherry"));
+        int[] expected = {2, 3, 2};
+        assertArrayEquals(expected, new StringAnalyzer().countVowels(strings));
     }
 
     @Test
     public void testCountConsonants() {
         String[] strings = {"apple", "banana", "cherry"};
-        Map<String, Integer> result = new StringAnalyzer().countConsonants(strings);
-        assertEquals(3, result.get("apple"));
-        assertEquals(3, result.get("banana"));
-        assertEquals(4, result.get("cherry"));
+        int[] expected = {3, 3, 5};
+        assertArrayEquals(expected, new StringAnalyzer().countConsonants(strings));
     }
 
     @Test

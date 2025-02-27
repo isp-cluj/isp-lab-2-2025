@@ -57,28 +57,37 @@ public class StringAnalyzer {
      * @param strings the array of strings to analyze
      * @return a map from string to vowel count
      */
-    public Map<String, Integer> countVowels(String[] strings) {
+    public int[] countVowels(String[] strings) {
         // TODO: Implement this method
         // 1. Create a map to store the counts
         // 2. For each string, count the vowels (a, e, i, o, u)
         // 3. Store the counts in the map
         // 4. Return the map
-        return null;
+        return new int[0];
     }
 
     /**
      * Counts the number of consonants in each string.
      *
      * @param strings the array of strings to analyze
-     * @return a map from string to consonant count
+     * @return an array of integers representing the consonant count for each string
      */
-    public Map<String, Integer> countConsonants(String[] strings) {
+    public int[] countConsonants(String[] strings) {
         // TODO: Implement this method
-        // 1. Create a map to store the counts
+        // 1. Create an array to store the counts
+        int[] consonantCounts = new int[strings.length];
         // 2. For each string, count the consonants (non-vowels that are letters)
-        // 3. Store the counts in the map
-        // 4. Return the map
-        return null;
+        for (int i = 0; i < strings.length; i++) {
+            int count = 0;
+            for (char c : strings[i].toCharArray()) {
+                if (Character.isLetter(c) && "aeiouAEIOU".indexOf(c) == -1) {
+                    count++;
+                }
+            }
+            consonantCounts[i] = count;
+        }
+        // 3. Return the array
+        return consonantCounts;
     }
 
     /**

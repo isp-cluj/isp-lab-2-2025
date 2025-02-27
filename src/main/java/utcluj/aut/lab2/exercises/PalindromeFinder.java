@@ -27,17 +27,17 @@ public class PalindromeFinder {
      * 
      * @param a the lower bound of the range
      * @param b the upper bound of the range
-     * @return a list of all palindromic numbers in the range
+     * @return an array of all palindromic numbers in the range
      * @throws IllegalArgumentException if a > b
      */
-    public List<Integer> findPalindromes(int a, int b) {
+    public int[] findPalindromes(int a, int b) {
         // TODO: Implement this method
         // 1. Validate that a <= b, throw IllegalArgumentException if not
-        // 2. Create a list to store palindromic numbers
+        // 2. Create an array to store palindromic numbers
         // 3. Iterate through each number in the range [a, b]
-        // 4. Check if each number is palindromic, add to list if true
-        // 5. Return the list
-        return null;
+        // 4. Check if each number is palindromic, add to array if true
+        // 5. Return the array
+        return new int[0];
     }
 
     public static void main(String[] args) {
@@ -45,6 +45,6 @@ public class PalindromeFinder {
         // 1. Create an instance of PalindromeFinder
         // 2. Define a range of numbers to check for palindromes
         // 3. Find palindromes in the defined range
-        // 4. Print the list of palindromes
+        // 4. Print the array of palindromes
     }
 }

@@ -11,6 +11,10 @@ This project is a collection of exercises for lab 2 assignment, focusing on diff
 5. **Debug and Refine:** If your tests fail, debug your code to find and fix the issues. Refine your solution to improve performance and readability.
 6. **Submit Your Work:** Once you are confident that your code works correctly, submit your work as per the submission guidelines.
 
+## Implementaiton note
+
+Guided skeleton classes do not make use of Java features with regard to storing and managin arrays of data. This is done to keep the exercises simple and focused on the core concepts. In a real-world scenario, and starting with next laboratories you would use Java collections or other data structures to manage data more efficiently.
+
 ## Exercise 1
 Generate a random number between 25 and 150 and create an array of that size. Fill the array with random integers between -100 and 100. Calculate the average value of all elements and count how many elements are above and below this average.
 
