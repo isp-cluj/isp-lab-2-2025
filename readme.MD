@@ -1,6 +1,6 @@
 # Laboratory 2
 
-This project is a collection of exercises for lab 2 assignment, focusing on different programming tasks. Each exercise is encapsulated in a separate class, and the project is organized to facilitate the implementation and testing of these classes. Below is a brief overview of the structure and purpose of each class.
+This project is a collection of exercises for lab 2 assignment, focusing on different programming tasks. Each exercise is encapsulated in a separate class, and the project is organized to facilitate the implementation and testing of these classes.
 
 ## Expected Workflow for Students
 
