@@ -11,7 +11,7 @@ public class ArrayAnalyzer {
      * 
      * @return an array of random integers
      */
-    public int[] generateArray() {
+    public static int[] generateArray() {
         // TODO: Implement this method
         // 1. Generate a random size between 25 and 150
         // 2. Create an array of that size
@@ -26,7 +26,7 @@ public class ArrayAnalyzer {
      * @param array the array to analyze
      * @return the average value of all elements
      */
-    public double calculateAverage(int[] array) {
+    public static double calculateAverage(int[] array) {
         // TODO: Implement this method
         // 1. Calculate the sum of all elements in the array
         // 2. Return the average (sum divided by length)
@@ -41,7 +41,7 @@ public class ArrayAnalyzer {
      * @param average the average value to compare against
      * @return an array of 2 integers: [countAbove, countBelow]
      */
-    public int[] countAboveBelowAverage(int[] array, double average) {
+    public static int[] countAboveBelowAverage(int[] array, double average) {
         // TODO: Implement this method
         // 1. Count elements above the average
         // 2. Count elements below the average
