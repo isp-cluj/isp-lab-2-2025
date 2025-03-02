@@ -1,16 +1,14 @@
 package utcluj.aut.lab2.exercises;
 
-import java.util.List;
-
 /**
  * Class for finding palindromic numbers in a given range.
  * Students should implement all methods to pass the unit tests.
  */
-public class PalindromeFinder {
-    
+public class Ex2PalindromeFinder {
+
     /**
      * Checks if a number is palindromic (reads the same backward as forward).
-     * 
+     *
      * @param number the number to check
      * @return true if the number is palindromic, false otherwise
      */
@@ -21,10 +19,10 @@ public class PalindromeFinder {
         // 3. Return the result
         return false;
     }
-    
+
     /**
      * Finds all palindromic numbers in the given range [a, b], inclusive.
-     * 
+     *
      * @param a the lower bound of the range
      * @param b the upper bound of the range
      * @return an array of all palindromic numbers in the range

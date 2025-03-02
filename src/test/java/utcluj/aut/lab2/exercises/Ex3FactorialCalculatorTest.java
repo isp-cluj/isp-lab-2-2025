@@ -4,12 +4,12 @@ import org.junit.jupiter.api.BeforeEach;
 import static org.junit.jupiter.api.Assertions.*;
 import java.time.Duration;
 
-public class FactorialCalculatorTest {
-    private FactorialCalculator calculator;
+public class Ex3FactorialCalculatorTest {
+    private Ex3FactorialCalculator calculator;
 
     @BeforeEach
     public void setup() {
-        calculator = new FactorialCalculator();
+        calculator = new Ex3FactorialCalculator();
     }
 
     @Test

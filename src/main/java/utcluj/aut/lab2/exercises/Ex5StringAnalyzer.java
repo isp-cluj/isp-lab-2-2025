@@ -1,12 +1,10 @@
 package utcluj.aut.lab2.exercises;
 
-import java.util.Map;
-
 /**
  * Class for analyzing strings.
  * Students should implement all methods to pass the unit tests.
  */
-public class StringAnalyzer {
+public class Ex5StringAnalyzer {
 
     /**
      * Parses the input string into an array of strings, splitting by semicolons.

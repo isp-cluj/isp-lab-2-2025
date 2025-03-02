@@ -10,10 +10,10 @@ public class JavaBasicDemo {
         // Reading an integer from the console
         System.out.print("Enter an integer: ");
         int num = scanner.nextInt();
+        scanner.nextLine(); // Consume newline left-over after the number itself
         System.out.println("You entered: " + num);
 
         // Reading a line of text from the console
-        scanner.nextLine(); // Consume newline left-over
         System.out.print("Enter a line of text: ");
         String text = scanner.nextLine();
         System.out.println("You entered: " + text);

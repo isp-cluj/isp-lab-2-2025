@@ -13,16 +13,16 @@ This project is a collection of exercises for lab 2 assignment, focusing on diff
 
 ## Implementaiton note
 
-Guided skeleton classes do not make use of Java features with regard to storing and managin arrays of data. This is done to keep the exercises focused on the core java features (if-elxe, loops, arrays, vairables) and not touching aspects related to object oriented programing where this collections normaly belongs to. In a real-world scenario, and starting with next laboratories you would use Java collections or other data structures to manage data more efficiently.
+Guided skeleton classes do not make use of Java features with regard to storing and managing arrays of data. This is done to keep the exercises focused on the core java features (if-else, loops, arrays, variables) and not touching aspects related to object oriented programing where collections are normally used. In a real-world scenario, and starting with next laboratories you will use Java collections or other data structures to manage data more efficiently.
 
 ## Exercise 1
 Generate a random number between 25 and 150 and create an array of that size. Fill the array with random integers between -100 and 100. Calculate the average value of all elements and count how many elements are above and below this average.
 
 ## Exercise 2
-Write a program that reads two integers a and b from the keyboard, where a is less than b. The program should find all palindromic numbers between a and b, inclusive. A palindromic number reads the same backward as forward (e.g., 121, 1331). Display all the palindromic numbers found and their count.
+Write a program that reads two integers _a_ and _b_ from the keyboard, where _a_ is less than _b_. The program should find all palindromic numbers between _a_ and _b_, inclusive. A palindromic number reads the same backward as forward (e.g., 121, 1331). Display all the palindromic numbers found and their count.
 
 ## Exercise 3
-Write a program that takes an integer n as input and calculates the factorial of n using recursion. Additionally, implement a non-recursive solution and compare the execution time of both approaches for various values of n.
+Write a program that takes an integer _n_ as input and calculates the factorial of _n_ using recursion. Additionally, implement a non-recursive solution and compare the execution time of both approaches for various values of _n_.
 
 ## Exercise 4
 Implement an application that allows the user to filter and sort a list of student records. First, the user is asked to input student records in the format "name,age,grade" on separate lines (e.g., "John,19,85"). After entering all records, the user can filter students by minimum grade threshold and sort the results by name, age, or grade in ascending or descending order.

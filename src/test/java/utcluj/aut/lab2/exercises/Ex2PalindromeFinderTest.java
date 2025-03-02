@@ -4,12 +4,12 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class PalindromeFinderTest {
-    private PalindromeFinder finder;
+public class Ex2PalindromeFinderTest {
+    private Ex2PalindromeFinder finder;
 
     @BeforeEach
     public void setup() {
-        finder = new PalindromeFinder();
+        finder = new Ex2PalindromeFinder();
     }
 
     @Test

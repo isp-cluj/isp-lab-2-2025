@@ -3,20 +3,20 @@ package utcluj.aut.lab2.exercises;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class StudentRecordManagerTest {
+public class Ex4StudentRecordManagerTest {
 
     @Test
     public void testParseStudentRecord() {
         String record = "John Doe,20,85";
         String[] expected = {"John Doe", "20", "85"};
-        assertArrayEquals(expected, StudentRecordManager.parseStudentRecord(record));
+        assertArrayEquals(expected, Ex4StudentRecordManager.parseStudentRecord(record));
     }
 
     @Test
     public void testParseStudentRecordInvalidFormat() {
         String record = "John Doe,20";
         assertThrows(IllegalArgumentException.class, () -> {
-            StudentRecordManager.parseStudentRecord(record);
+            Ex4StudentRecordManager.parseStudentRecord(record);
         });
     }
 
@@ -31,7 +31,7 @@ public class StudentRecordManagerTest {
             {"John Doe", "20", "85"},
             {"Jane Smith", "22", "90"}
         };
-        assertArrayEquals(expected, StudentRecordManager.filterByGrade(records, "80"));
+        assertArrayEquals(expected, Ex4StudentRecordManager.filterByGrade(records, "80"));
     }
 
     @Test
@@ -46,7 +46,7 @@ public class StudentRecordManagerTest {
             {"Jane Smith", "22", "90"},
             {"John Doe", "20", "85"}
         };
-        assertArrayEquals(expected, StudentRecordManager.sortRecords(records, "name", true));
+        assertArrayEquals(expected, Ex4StudentRecordManager.sortRecords(records, "name", true));
     }
 
     @Test
@@ -61,12 +61,12 @@ public class StudentRecordManagerTest {
             {"John Doe", "20", "85"},
             {"Bob Johnson", "19", "70"}
         };
-        assertArrayEquals(expected, StudentRecordManager.sortRecords(records, "grade", false));
+        assertArrayEquals(expected, Ex4StudentRecordManager.sortRecords(records, "grade", false));
     }
 
     @Test
     public void testIsInteger() {
-        assertTrue(StudentRecordManager.isInteger("123"));
-        assertFalse(StudentRecordManager.isInteger("abc"));
+        assertTrue(Ex4StudentRecordManager.isInteger("123"));
+        assertFalse(Ex4StudentRecordManager.isInteger("abc"));
     }
 }

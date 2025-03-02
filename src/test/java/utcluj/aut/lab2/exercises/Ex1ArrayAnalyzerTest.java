@@ -3,12 +3,12 @@ package utcluj.aut.lab2.exercises;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class ArrayAnalyzerTest {
+public class Ex1ArrayAnalyzerTest {
 
     @Test
     public void testArraySizeAndRange() {
         // Testing the ArrayAnalyzer class implementation
-        ArrayAnalyzer analyzer = new ArrayAnalyzer();
+        Ex1ArrayAnalyzer analyzer = new Ex1ArrayAnalyzer();
         int[] array = analyzer.generateArray();
 
         // Test array size is between 25 and 150
@@ -26,7 +26,7 @@ public class ArrayAnalyzerTest {
     public void testAverageCalculation() {
         // Create a known array for testing
         int[] testArray = {10, 20, 30, 40, 50};
-        ArrayAnalyzer analyzer = new ArrayAnalyzer();
+        Ex1ArrayAnalyzer analyzer = new Ex1ArrayAnalyzer();
 
         // Test average calculation
         double average = analyzer.calculateAverage(testArray);
@@ -40,7 +40,7 @@ public class ArrayAnalyzerTest {
 
     @Test
     public void testEmptyOrSingleElementArray() {
-        ArrayAnalyzer analyzer = new ArrayAnalyzer();
+        Ex1ArrayAnalyzer analyzer = new Ex1ArrayAnalyzer();
 
         // Test empty array
         int[] emptyArray = {};

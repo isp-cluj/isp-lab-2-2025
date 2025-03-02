@@ -3,11 +3,11 @@ package utcluj.aut.lab2.exercises;
  * Class for calculating factorials using recursive and non-recursive approaches.
  * Students should implement all methods to pass the unit tests.
  */
-public class FactorialCalculator {
-    
+public class Ex3FactorialCalculator {
+
     /**
      * Calculates the factorial of n using recursion.
-     * 
+     *
      * @param n the number to calculate factorial for
      * @return the factorial of n
      * @throws IllegalArgumentException if n is negative
@@ -19,10 +19,10 @@ public class FactorialCalculator {
         // 3. Remember the base case (0! = 1)
         return 0;
     }
-    
+
     /**
      * Calculates the factorial of n using a non-recursive approach.
-     * 
+     *
      * @param n the number to calculate factorial for
      * @return the factorial of n
      * @throws IllegalArgumentException if n is negative
@@ -34,10 +34,10 @@ public class FactorialCalculator {
         // 3. Remember the base case (0! = 1)
         return 0;
     }
-    
+
     /**
      * Compares the execution time of both factorial methods.
-     * 
+     *
      * @param n the number to calculate factorial for
      * @return an array with [recursiveTime, nonRecursiveTime] in nanoseconds
      */

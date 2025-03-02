@@ -6,7 +6,7 @@ package utcluj.aut.lab2.exercises;
  * and sort them by different criteria.
  * Students should implement all methods to complete the exercise.
  */
-public class StudentRecordManager {
+public class Ex4StudentRecordManager {
 
     /**
      * Main method that runs the application.

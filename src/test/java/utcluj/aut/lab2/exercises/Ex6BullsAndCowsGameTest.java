@@ -4,19 +4,19 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class BullsAndCowsGameTest {
-    private BullsAndCowsGame game;
+public class Ex6BullsAndCowsGameTest {
+    private Ex6BullsAndCowsGame game;
 
     @BeforeEach
     public void setup() {
         // Initialize with a fixed secret number for testing
-        game = new BullsAndCowsGame("1234");
+        game = new Ex6BullsAndCowsGame("1234");
     }
 
     @Test
     public void testGenerateSecretNumber() {
         // Test generating a secret number
-        String secret = BullsAndCowsGame.generateSecretNumber();
+        String secret = Ex6BullsAndCowsGame.generateSecretNumber();
         assertEquals(4, secret.length(), "Secret number should be 4 digits long");
 
         // Check for no repeated digits
@@ -27,10 +27,10 @@ public class BullsAndCowsGameTest {
         }
 
         // Test generating multiple numbers - should be different
-        String secret2 = BullsAndCowsGame.generateSecretNumber();
+        String secret2 = Ex6BullsAndCowsGame.generateSecretNumber();
         int attempts = 0;
         while (secret.equals(secret2) && attempts < 10) {
-            secret2 = BullsAndCowsGame.generateSecretNumber();
+            secret2 = Ex6BullsAndCowsGame.generateSecretNumber();
             attempts++;
         }
         assertNotEquals(secret, secret2, "Generated secret numbers should be random");
