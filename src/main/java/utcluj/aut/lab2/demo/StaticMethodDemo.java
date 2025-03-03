@@ -26,6 +26,13 @@ public class StaticMethodDemo {
         return input.split(":");
     }
 
+    // Validates number is positive
+    public static void validateNumberIsPositive(int number) {
+        if (number < 0) {
+            throw new IllegalArgumentException("Number must be positive");
+        }
+    }
+
     public static void main(String[] args) {
         // Calling the static method with void return type
         printMessage();
@@ -47,5 +54,8 @@ public class StaticMethodDemo {
         for (String part : splitArray) {
             System.out.println(part);
         }
+
+        // Call validate positive number
+        validateNumberIsPositive(-10);
     }
 }
