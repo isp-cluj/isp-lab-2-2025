@@ -53,14 +53,14 @@ public class Ex5StringAnalyzer {
      * Counts the number of vowels in each string.
      *
      * @param strings the array of strings to analyze
-     * @return a map from string to vowel count
+     * @return an array of vowel counts
      */
     public int[] countVowels(String[] strings) {
         // TODO: Implement this method
-        // 1. Create a map to store the counts
+        // 1. Create a array to store the counts
         // 2. For each string, count the vowels (a, e, i, o, u)
-        // 3. Store the counts in the map
-        // 4. Return the map
+        // 3. Store the counts in an array, in the same order as the strings
+        // 4. Return the array
         return new int[0];
     }
 
